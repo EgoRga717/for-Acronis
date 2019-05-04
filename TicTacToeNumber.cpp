@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//Ответ: 5478
+#include <iostream>
 
 using namespace std;
 
