@@ -24,10 +24,10 @@ int main(int argc, char* argv[])
 		{
 			for (int i = 0; i < argc - 1; ++i)
 			{
+				if (argv[i + 1][progress[i]] != in)
+					progress[i] = 0;
 				if (argv[i + 1][progress[i]] == in)
 					++progress[i];
-				else
-					progress[i] = 0;
 				if (sizeArgv[i] == progress[i])
 				{
 					cout << '*';
